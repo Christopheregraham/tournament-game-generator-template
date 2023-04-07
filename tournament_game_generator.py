@@ -1,5 +1,3 @@
-# Write your code here.
-
 def get_number_of_teams():
     team_num = 0
     while team_num < 2:
@@ -56,8 +54,6 @@ def get_team_wins(team_names, games_played):
     return team_record
 
 
-# It is not necessary to use the functions defined above. There are simply here
-# to help give your code some structure and provide a starting point.
 num_teams = get_number_of_teams()
 team_names = get_team_names(num_teams)
 games_played = get_number_of_games_played(num_teams)
